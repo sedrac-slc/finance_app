@@ -30,7 +30,12 @@ class SignUpPage extends StatelessWidget {
           Form(
             child: Column(
               children: [
-    
+                TextFormField(
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'YOUR NAME',
+                  ),
+                )
               ],
             ),
           ),
